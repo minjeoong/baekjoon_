@@ -15,7 +15,4 @@ def star(n):
 
     return(stars)
     
-
-
-
 print('\n'.join(star(n)))
