@@ -2,7 +2,6 @@
 # BFS
 
 inp = int(input())
-saved_result = inp
 # 1 ~ 받은 숫자까지 돌면서 생성자 찾기
 for i in range(1, inp+1):
     sumn = sum(map(int, str(i)))     #각 자리 숫자 합
