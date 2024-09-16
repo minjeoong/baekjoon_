@@ -3,3 +3,4 @@ lst = []
 day = 0
 for _ in range(N):
   lst[_] = list(input().split(' '))
+
