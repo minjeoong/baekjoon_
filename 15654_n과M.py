@@ -15,7 +15,6 @@ def backtracing(depth):
     box.append(sorted_lst[i])
     backtracing(depth+1)
     box.pop()
-  print('box : ', box)
 
 box = []
 backtracing(0)
