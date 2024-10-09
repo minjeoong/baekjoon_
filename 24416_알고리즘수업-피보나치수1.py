@@ -18,7 +18,9 @@ def fibonacci(n):
     f[2] = 1
     for i in range(3,n+1):
         code2 += 1
-        f[i] = f[i - 1] + f[i - 2] # 코드2
+        f[i] = f[i - 1] + f[i - 2] 
+        # 코드2
+        
     return f[n]
 
 code1 = 0
